@@ -52,7 +52,7 @@ public class signup_login extends AppCompatActivity {
                         .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                             @Override
                             public void onSuccess(AuthResult authResult) {
-                               // startActivity(new Intent(signup_login.this,record.class));
+                               startActivity(new Intent(signup_login.this,record.class));
                                 progressdialog.cancel();
 
                                 firebasefirestore.collection("User")
