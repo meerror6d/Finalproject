@@ -1,9 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".login_signin">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/email2"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="e-mail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints">
+    </EditText>
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints">
+    </EditText>
+
+    <TextView
+        android:id="@+id/forget"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="10dp"
+        android:text="forget password?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="log in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+
+    <TextView
+        android:textColor="@color/teal_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Don't have any account?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/signup2"
+        android:textColor="@color/teal_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Sign up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
