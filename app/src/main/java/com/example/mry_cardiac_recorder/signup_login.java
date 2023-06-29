@@ -10,7 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.cardiacrecorder.databinding.ActivitySignupLoginBinding;
+//import com.example.cardiacrecorder.databinding.ActivitySignupLoginBinding;
 import com.example.mry_cardiac_recorder.databinding.ActivitySignupLoginBinding;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -79,4 +79,4 @@ public class signup_login extends AppCompatActivity {
         });
 
     }
-}}
+}
