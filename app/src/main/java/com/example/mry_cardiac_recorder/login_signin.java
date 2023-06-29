@@ -90,7 +90,7 @@ public class login_signin extends AppCompatActivity {
         binding.signup2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(login_signin.this,signup_login.class));
+                startActivity(new Intent(login_signin.this,signup_login.class));
             }
         });
 
