@@ -23,8 +23,8 @@ public class record extends AppCompatActivity {
 
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
-    //ModelClass modelclass;
-    //Gson gson;
+    ModelClass modelclass;
+    Gson gson;
 
 
 
@@ -50,17 +50,17 @@ public class record extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent=new Intent(record.this,DataEntry.class);
-                //startActivity(intent);
-                //finish();
+                Intent intent=new Intent(record.this,DataEntry.class);
+                startActivity(intent);
+                finish();
 
             }
         });
 
         recyclerView1=findViewById(R.id.recyclarView);
-        //adapter =new TaskAdapter(record.this, RecordList.mcl);
-        //recyclerView1.setAdapter(adapter);
-        //adapter.setClickListener(new TaskAdapter.ClickListener() {
+        adapter =new TaskAdapter(record.this, RecordList.mcl);
+        recyclerView1.setAdapter(adapter);
+        adapter.setClickListener(new TaskAdapter.ClickListener() {
             @Override
             public void customOnClick(int position, View v) {
 
@@ -80,9 +80,9 @@ public class record extends AppCompatActivity {
             @Override
             public void onDeleteClick(int position) {
 
-                // RecordList.mcl.remove(position);
-                //new RecordList().deleteRecord(position);
-                //adapter.notifyItemRemoved(position);
+                RecordList.mcl.remove(position);
+                new RecordList().deleteRecord(position);
+                adapter.notifyItemRemoved(position);
                 saveData();
                 Toast.makeText(record.this,"Delete Successful",Toast.LENGTH_SHORT).show();
             }
@@ -109,7 +109,7 @@ public class record extends AppCompatActivity {
 
             @Override
             public void DetailClick(int position){
-                //Toast.makeText(MainActivity.this,"clicked",Toast.LENGTH_SHORT);
+                Toast.makeText(record.this,"clicked",Toast.LENGTH_SHORT);
                 //Intent intent1= new Intent(record.this,Details_Activity.class);
                 //intent1.putExtra("index",position);
                 //startActivity(intent1);
@@ -149,13 +149,13 @@ public class record extends AppCompatActivity {
     private void retrieveData()
     {
         sharedPreferences = getSharedPreferences("sornaly",MODE_PRIVATE);
-        //gson = new Gson();
+        gson = new Gson();
         String jsonString = sharedPreferences.getString("sornaly",null);
-        //Type type = new TypeToken<ArrayList<ModelClass>>(){}.getType();
-        //RecordList.mcl = gson.fromJson(jsonString,type);
-        //if(RecordList.mcl ==null)
-        //{
-            //RecordList.mcl = new ArrayList<>();
-        //}
+        Type type = new TypeToken<ArrayList<ModelClass>>(){}.getType();
+        RecordList.mcl = gson.fromJson(jsonString,type);
+        if(RecordList.mcl ==null)
+        {
+            RecordList.mcl = new ArrayList<>();
+        }
     }
 }
