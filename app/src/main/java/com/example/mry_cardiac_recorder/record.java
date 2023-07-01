@@ -19,7 +19,7 @@ import java.util.ArrayList;
 public class record extends AppCompatActivity {
 
     private RecyclerView recyclerView1;
-    //public static TaskAdapter adapter;
+    public static TaskAdapter adapter;
 
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
