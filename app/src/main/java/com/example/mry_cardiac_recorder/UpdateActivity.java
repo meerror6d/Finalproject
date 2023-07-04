@@ -1,4 +1,4 @@
-package com.example.cardiacrecorder;
+package com.example.mry_cardiac_recorder;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,6 +11,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.mry_cardiac_recorder.ModelClass;
+import com.example.mry_cardiac_recorder.R;
+import com.example.mry_cardiac_recorder.RecordList;
+import com.example.mry_cardiac_recorder.record;
 import com.google.gson.Gson;
 
 public class UpdateActivity extends AppCompatActivity {

@@ -37,7 +37,7 @@ public class RecordUITest  {
         onView(withId(R.id.timeValue)).perform(ViewActions.typeText("10:19"));
         onView(withId(R.id.systolicValue)).perform(ViewActions.typeText("120"));
         onView(withId(R.id.diastolicValue)).perform(ViewActions.typeText("90"));
-        // pressBack();
+
         onView(withId(R.id.heartRateValue)).perform(ViewActions.typeText("80"));
         pressBack();
         onView(withId(R.id.commentValue)).perform(ViewActions.typeText("UI test data insert"));
@@ -51,7 +51,7 @@ public class RecordUITest  {
         To view
         */
         // First scroll to the position that needs to be matched and click on it.
-        onView(ViewMatchers.withId(R.id.recyclarView))
+        onView(withId(R.id.recyclarView))
                 .perform(RecyclerViewActions.actionOnItemAtPosition(0, click()));
         pressBack();
 
@@ -69,7 +69,7 @@ public class RecordUITest  {
         onView(withId(R.id.UsystolicValue)).perform(ViewActions.typeText("110"));
         onView(withId(R.id.UdiastolicValue)).perform(ViewActions.clearText());
         onView(withId(R.id.UdiastolicValue)).perform(ViewActions.typeText("80"));
-        // pressBack();
+
         onView(withId(R.id.UheartRateValue)).perform(ViewActions.clearText());
         onView(withId(R.id.UheartRateValue)).perform(ViewActions.typeText("70"));
         pressBack();
@@ -87,7 +87,7 @@ public class RecordUITest  {
 
         RecordList.mcl.clear();
 
-        new Utils().equals(InstrumentationRegistry.getInstrumentation().getContext());
+        new Utils().saveData(InstrumentationRegistry.getInstrumentation().getContext());
 
     }
 

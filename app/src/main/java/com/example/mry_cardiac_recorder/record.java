@@ -95,10 +95,10 @@ public class record extends AppCompatActivity {
 
             @Override
             public void onEditClick(int position) {
-                //Intent intent = new Intent(record.this, UpdateActivity.class);
-                //intent.putExtra("index",position);
-                //startActivity(intent);
-                //finish();
+                Intent intent = new Intent(record.this,UpdateActivity.class);
+                intent.putExtra("index",position);
+                startActivity(intent);
+                finish();
 
             }
 
@@ -110,9 +110,9 @@ public class record extends AppCompatActivity {
             @Override
             public void DetailClick(int position){
                 Toast.makeText(record.this,"clicked",Toast.LENGTH_SHORT);
-                //Intent intent1= new Intent(record.this,Details_Activity.class);
-                //intent1.putExtra("index",position);
-                //startActivity(intent1);
+                Intent intent1= new Intent(record.this,Details_Activity.class);
+                intent1.putExtra("index",position);
+                startActivity(intent1);
             }
         });
 
