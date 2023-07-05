@@ -8,7 +8,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".DataEntry"
     android:orientation="vertical"
-    android:background="@color/black"
+    android:background="@color/white"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ScrollView
@@ -26,7 +26,7 @@
                 android:layout_marginStart="38dp"
                 android:layout_marginTop="50dp"
                 android:text="Update record:"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/black"
                 android:textSize="21sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:text="@string/date"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/header" />
@@ -52,7 +52,7 @@
                 android:hint="dd/mm/yy"
                 android:inputType="text"
                 android:padding="7dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/date" />
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:text="@string/time"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/date" />
@@ -78,7 +78,7 @@
                 android:hint="hh : mm"
                 android:inputType="text"
                 android:padding="7dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/time" />
@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:text="@string/systolic"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/time" />
@@ -104,7 +104,7 @@
                 android:hint="number"
                 android:inputType="number"
                 android:padding="7dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/systolic" />
@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:text="@string/diastolic"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/systolic" />
@@ -130,7 +130,7 @@
                 android:hint="number"
                 android:inputType="number"
                 android:padding="7dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/diastolic" />
@@ -141,7 +141,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:text="@string/heart_rate"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/diastolic" />
@@ -156,7 +156,7 @@
                 android:hint="number"
                 android:inputType="number"
                 android:padding="7dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/heartRate" />
@@ -167,7 +167,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:text="@string/comment"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/heartRate" />
@@ -178,11 +178,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="38dp"
                 android:layout_marginTop="5dp"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="@color/black"
                 android:hint="Comment"
                 android:inputType="textMultiLine"
                 android:padding="7dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="@+id/header"
                 app:layout_constraintTop_toBottomOf="@+id/comment" />
