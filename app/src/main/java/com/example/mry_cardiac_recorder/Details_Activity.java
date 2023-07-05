@@ -59,9 +59,9 @@ public class Details_Activity extends AppCompatActivity {
 
     private void retrieveData()
     {
-        sharedPreferences = getSharedPreferences("jami",MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences("Sornaly",MODE_PRIVATE);
         gson = new Gson();
-        String jsonString = sharedPreferences.getString("jami",null);
+        String jsonString = sharedPreferences.getString("Sornaly",null);
         Type type = new TypeToken<ArrayList<ModelClass>>(){}.getType();
         mcl = gson.fromJson(jsonString,type);
         if(mcl ==null)

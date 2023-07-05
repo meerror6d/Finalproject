@@ -47,7 +47,7 @@ public class login_signin extends AppCompatActivity {
                             @Override
                             public void onSuccess(AuthResult authResult) {
                                 progressdialog.cancel();
-                                //startActivity(new Intent(login_signin.this,record.class));
+                                startActivity(new Intent(login_signin.this,record.class));
                                 Toast.makeText(login_signin.this, "Login Successful!", Toast.LENGTH_SHORT).show();
 
                             }
