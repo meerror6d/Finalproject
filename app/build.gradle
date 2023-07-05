@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.mry_cardiac_recorder'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.mry_cardiac_recorder"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -47,4 +47,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:23.0.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+        androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+        androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.5.1'
+        androidTestImplementation 'androidx.test.ext:junit:1.1.5'
 }
