@@ -1,4 +1,4 @@
-package com.example.cardiacrecorder;
+package com.example.mry_cardiac_recorder;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
