@@ -38,7 +38,7 @@ CardiacRecorder is a simple and useful app which can monitor a person's heart sy
   
   
   <td> <h2>Add Record</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/data%20entry.jpeg?raw=true" height = "400px" width="300px"/></td>
-  <td><h2> Update Record</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/data%20update.jpeg?raw=true" height = "400px" width="300px"/></td>
+  <td><h2> Update Record</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/update.jpeg?raw=true" height = "400px" width="300px"/></td>
   <td><h2>Delete Record</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/data%20deleted.jpeg?raw=true" height = "400px" width="300px"/></td>
 
   </tr>
