@@ -20,27 +20,27 @@ CardiacRecorder is a simple and usefula app which can monitor a person's heart s
 
 ## Here are some screenshoots of our app:
 
-## SplashScreen
-![splashScreen](https://github.com/meerror6d/Finalproject/blob/master/Screenshot/splash.jpeg?raw=true)
+<table>
+  <tr> 
+  <td><h2>SplashScreen</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/splash.jpeg?raw=true" height = "400px" width="250px"/></td>
+  <td><h2>Signup</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/signup.jpeg?raw=true" height = "400px" width="250px"/></td>
+  <td><h2>Login</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/login.jpeg?raw=true" height = "400px" width="250px"/></td>
+  <td><h2>Show Record</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/show%20data.jpeg?raw=true" height = "400px" width="250px"/></td>
+ 
+  
+  </tr>
+  <tr>
+  
 
-## SignUp
-![splashScreen](https://github.com/meerror6d/Finalproject/blob/master/Screenshot/signup.jpeg?raw=true)
+  
+  
+  <td> <h2>Add Record</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/data%20entry.jpeg?raw=true" height = "400px" width="300px"/></td>
+  <td><h2> Update Record</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/data%20deleted.jpeg?raw=true" height = "400px" width="300px"/></td>
+  <td><h2>Delete Record</h2><img src = "https://github.com/meerror6d/Finalproject/blob/master/Screenshot/data%20deleted.jpeg?raw=true" height = "400px" width="300px"/></td>
 
-## Login
-![splashScreen](https://github.com/meerror6d/Finalproject/blob/master/Screenshot/login.jpeg?raw=true)
+  </tr>
 
-## Show Data
-![splashScreen](https://github.com/meerror6d/Finalproject/blob/master/Screenshot/show%20data.jpeg?raw=true)
-
-## Add Record
-![splashScreen](https://github.com/meerror6d/Finalproject/blob/master/Screenshot/data%20entry.jpeg?raw=true)
-
-## Update Record
-![splashScreen](https://github.com/meerror6d/Finalproject/blob/master/Screenshot/update.jpeg?raw=true)
-
-
-## Delete Record
-![splashScreen](https://github.com/meerror6d/Finalproject/blob/master/Screenshot/data%20deleted.jpeg?raw=true)
+</table>
 
 
 
