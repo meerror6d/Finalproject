@@ -45,7 +45,7 @@ CardiacRecorder is a simple and usefula app which can monitor a person's heart s
 
 </table>
 </br>
-<a href="https://github.com/meerror6d/Finalproject/wiki">Wiki_Link</a>
+<a href="https://github.com/meerror6d/Finalproject/wiki">Click here to visit our Wiki</a>
 
 
 
