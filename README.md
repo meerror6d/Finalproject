@@ -17,6 +17,8 @@ CardiacRecorder is a simple and usefula app which can monitor a person's heart s
 
 ## UML Design
 ![UML](https://github.com/meerror6d/Finalproject/blob/master/Screenshot/UML.png?raw=true)
+</br>
+</br>
 
 ## Here are some screenshoots of our app:
 
@@ -29,6 +31,7 @@ CardiacRecorder is a simple and usefula app which can monitor a person's heart s
  
   
   </tr>
+  </br>
   <tr>
   
 
@@ -41,6 +44,8 @@ CardiacRecorder is a simple and usefula app which can monitor a person's heart s
   </tr>
 
 </table>
+</br>
+<a href="https://github.com/meerror6d/Finalproject/wiki">Wiki_Link</a>
 
 
 
