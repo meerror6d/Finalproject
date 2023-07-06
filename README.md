@@ -1,6 +1,6 @@
 # CardiacRecorder
 
-CardiacRecorder is a simple and usefula app which can monitor a person's heart systolic ,diastolic blood pressure as well as heart rate.
+CardiacRecorder is a simple and useful app which can monitor a person's heart systolic ,diastolic blood pressure as well as heart rate.
 
 
 
